@@ -13,10 +13,10 @@ Therefore, it is more scientifically important, and at the same time very challe
 In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
 
 ### Education & Career History
-- AI researcher | Alsemy (alsemy.com) (_2022-current_)
-- Ph.D. in Ocean Engineering | Seoul National University (_2017-2022_)
-- B.S in Ocean Engineering | Seoul National University (_2012-2017_)
-- Student | Hansung Science High School (_2009-2012_)
+- AI researcher at Alsemy (alsemy.com), 2022 - current
+- Ph.D. in Ocean Engineering, Seoul National University, 2017 - 2022
+- B.S in Ocean Engineering, Seoul National University, 2012 - 2017
+- Student at Hansung Science High School, 2009 - 2012
 
 ### Publications
 1. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
@@ -97,21 +97,21 @@ Developing a generative model to robustly estimate the position of sound sources
 - Collecting extensive real-world environment sound datasets, including various types and locations to develop a robust sound generative model.
 
 ### Teaching
-- Teaching Assistant at Seoul National University | Theory of Sound Wave Propagation in the Ocean | Fall 2021
+- Teaching Assistant at Seoul National University, Theory of Sound Wave Propagation in the Ocean, Fall 2021
 
-- Teaching Assistant at Seoul National University | Fundamentals of Underwater Acoustics | Spring 2021
+- Teaching Assistant at Seoul National University, Fundamentals of Underwater Acoustics, Spring 2021
 
-- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Spring 2020
+- Teaching Assistant at Seoul National University, Creative Experiments in Naval Architecture and Ocean Engineering, Spring 2020
 
-- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Fall 2019
+- Teaching Assistant at Seoul National University, Creative Experiments in Naval Architecture and Ocean Engineering, Fall 2019
 
 ### Awards
-- BK Education Research Group selected excellent graduate students | 2022
+- BK Education Research Group selected excellent graduate students, 2022
 
-- Korean Mathematical Olympiad (high school) - bronze prize | 2010
+- Korean Mathematical Olympiad (high school) - bronze prize, 2010
 
-- Korean Mathematical Olympiad (middle school) - gold prize | 2008
+- Korean Mathematical Olympiad (middle school) - gold prize, 2008
 
-- Korean Physics Olympiad (middle school) - silver prize | 2007
+- Korean Physics Olympiad (middle school) - silver prize, 2007
 
-- Korean Mathematical Olympiad (middle school) - silver prize | 2006
+- Korean Mathematical Olympiad (middle school) - silver prize, 2006
