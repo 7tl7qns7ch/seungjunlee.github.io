@@ -37,7 +37,7 @@ water, air, or a metal plate. Furthermore, the wave equation can mathematically 
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
-![EEG Band Discovery](/assets/img/ipot.png)
+<img src="/assets/img/ipot.png" width='700'>
 
 (1) Period
 
@@ -58,7 +58,7 @@ and scalable to large discretization sizes.
 
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
 
-<img src="/fig/hamaml.png" width='750'>
+<img src="/assets/img/hamaml.png" width='750'>
 
 (1) Period
 
@@ -78,7 +78,7 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 **3. Learning-based sound source classification and localization with limited data**
 
-<img src="/fig/zssl.png" width='750'>
+<img src="/assets/img/zssl" width='750'>
 
 (1) Period
 
