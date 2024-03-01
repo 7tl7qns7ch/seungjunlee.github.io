@@ -51,19 +51,15 @@ In the field of machine learning, such discussions are considered very important
 Python, PyTorch, JAX, Tensorflow, MATLAB, Julia, LATEX, SPICE
 
 ### Projects
-**1. Developing efficient architecture for solving physical systems**
+**1. Developing efficient architecture for solving physical systems (2022.08 - 2024.02)**
 
 ![Inducing Point Operator Transformer](/assets/img/ipot.png)
 
-(1) Period
-
-2022.08 - 2024.02
-
-(2) Main content
+(1) Main content
 
 Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
 
-(3) Contribution
+(2) Contribution
 
 - Proposing a Transformer that is flexible in handling arbitrary discretization formats 
 and scalable to large discretization sizes.
@@ -72,19 +68,15 @@ and scalable to large discretization sizes.
 
 - Achieving high accuracy and efficient computational costs in several PDE benchmarks and real-world scenarios.
 
-**2. Developing robust physics-based neural networks for analyzing dynamic systems**
+**2. Developing robust physics-based neural networks for analyzing dynamic systems (2021.03 - 2022.08)**
 
 ![Identifying Physical Laws](/assets/img/hamaml.png)
 
-(1) Period
-
-2021.03 - 2022.08
-
-(2) Main content
+(1) Main content
 
 Proposing a method using meta-learning algorithms to model governing equations from similar dynamical systems, enabling rapid learning for new systems even with limited measurement data.
 
-(3) Contribution
+(2) Contribution
 
 - Using a meta-learning algorithm to extract governing rules across similar dynamical systems.
 
@@ -92,19 +84,15 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 - Simulating various systems with different physical properties and initial conditions and validating the capability to efficiently learn new systems even with limited data.
 
-**3. Learning-based sound source classification and localization with limited data**
+**3. Learning-based sound source classification and localization with limited data (2019.03 - 2021.02)**
 
 ![Zero-Shot Source Localization](/assets/img/zssl.png)
 
-(1) Period
-
-2019.03 - 2021.02
-
-(2) Main content
+(1) Main content
 
 Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during the training.
 
-(3) Contribution
+(2) Contribution
 
 - Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.
 
