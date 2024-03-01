@@ -28,6 +28,7 @@ In the field of machine learning, such discussions are considered very important
 
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
+
 <img src="/fig/ipot.png" width='250'>
 (1) Period
 2022.08 - 2024.02
@@ -42,6 +43,7 @@ and scalable to large discretization sizes.
 - Achieving high accuracy and efficient computational costs in several PDE benchmarks and real-world scenarios.
 
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
+
 <img src="/fig/hamaml.png" width='250'>
 (1) Period
 2021.03 - 2022.08
@@ -55,7 +57,8 @@ Proposing a method using meta-learning algorithms to model governing equations f
 - Simulating various systems with different physical properties and initial conditions and validating the capability to efficiently learn new systems even with limited data.
 
 **3. Learning-based sound source classification and localization with limited data**
-<img src="/fig/zssl" width='250'>
+
+<img src="/fig/zssl.png" width='250'>
 (1) Period
 2019.03 - 2021.02
 (2) Main content
