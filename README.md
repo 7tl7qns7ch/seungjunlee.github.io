@@ -1,1 +1,7 @@
-# seungjunlee.github.io
+# AI Researcher
+
+### Education
+Computational Physics, PhD
+
+### Projects
+
