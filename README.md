@@ -1,4 +1,4 @@
-# AI Researcher
+# Seungjun Lee
 
 ### Research Interests
 My research goal is to develop artificial general intelligence having the ability to think in a scientific way. 
