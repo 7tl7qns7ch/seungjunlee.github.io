@@ -37,7 +37,7 @@ water, air, or a metal plate. Furthermore, the wave equation can mathematically 
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
-![EEG Band Discovery](/fig/ipot.png)
+![EEG Band Discovery](/assets/img/ipot.png)
 
 (1) Period
 
