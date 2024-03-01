@@ -2,8 +2,8 @@
 
 ### Contact Information
 - **Email:** tl7qns7ch@snu.ac.kr
-- **Linkedin:** seungjun-lee-656946213
-- **Google Scholar:** https://scholar.google.com/citations?user=0O-A7g0AAAAJ&hl
+- [**Linkedin**](https://www.linkedin.com/in/seungjun-lee-656946213/)
+- [**Google Scholar**](https://scholar.google.com/citations?user=0O-A7g0AAAAJ&hl)
 
 ### Research Interests
 My research goal is to develop artificial general intelligence having the ability to think in a scientific way. 
