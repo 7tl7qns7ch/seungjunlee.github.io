@@ -53,7 +53,7 @@ Python, PyTorch, JAX, Tensorflow, MATLAB, Julia, LATEX, SPICE
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
-!<img src="/assets/img/ipot.png" width='700'>
+![Inducing Point Operator Transformer](/assets/img/ipot.png)
 
 (1) Period
 
@@ -74,7 +74,7 @@ and scalable to large discretization sizes.
 
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
 
-!<img src="/assets/img/hamaml.png" width='750'>
+![Identifying Physical Laws](/assets/img/hamaml.png)
 
 (1) Period
 
@@ -94,7 +94,7 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 **3. Learning-based sound source classification and localization with limited data**
 
-!<img src="/assets/img/zssl.png" width='750'>
+![Zero-Shot Source Localization](/assets/img/zssl.png)
 
 (1) Period
 
