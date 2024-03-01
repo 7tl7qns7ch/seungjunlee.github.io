@@ -35,6 +35,17 @@ In the field of machine learning, such discussions are considered very important
 
 - Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Fall 2019
 
+### Awards
+- BK Education Research Group selected excellent graduate students | 2022
+
+- Korean Mathematical Olympiad (high school) - bronze prize | 2010
+
+- Korean Mathematical Olympiad (middle school) - gold prize | 2008
+
+- Korean Physics Olympiad (middle school) - silver prize | 2007
+
+- Korean Mathematical Olympiad (middle school) - silver prize | 2006
+
 ### Skills
 Python, PyTorch, JAX, Tensorflow, MATLAB, Julia, LATEX, SPICE
 
