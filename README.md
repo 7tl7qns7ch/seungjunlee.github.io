@@ -13,10 +13,10 @@ In the field of machine learning, such discussions are considered very important
 - Student | Hansung Science High School (_2009 - 2012_)
 
 ### Publications
-1. Seungjun Lee, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
-2. Seungjun Lee, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference On Machine Learning Workshop on AI for Science, 2022.
-3. Seungjun Lee, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
-4. Seungjun Lee, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
-5. Seungjun Lee, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
-6. Hwiyong Choi, Haesang Yang, Seungjun Lee, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
-7. Hwiyong Choi, Haesang Yang, Seungjun Lee, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
+1. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
+2. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference On Machine Learning Workshop on AI for Science, 2022.
+3. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
+4. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
+5. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
+6. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
+7. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
