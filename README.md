@@ -30,11 +30,17 @@ In the field of machine learning, such discussions are considered very important
 **1. Developing efficient architecture for solving physical systems**
 
 <img src="/fig/ipot.png" width='250'>
+
 (1) Period
+
 2022.08 - 2024.02
+
 (2) Main content
+
 Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
+
 (3) Contribution
+
 - Proposing a Transformer that is flexible in handling arbitrary discretization %formats 
 and scalable to large discretization sizes.
 
@@ -45,11 +51,17 @@ and scalable to large discretization sizes.
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
 
 <img src="/fig/hamaml.png" width='250'>
+
 (1) Period
+
 2021.03 - 2022.08
+
 (2) Main content
+
 Proposing a method using meta-learning algorithms to model governing equations from similar dynamical systems, enabling rapid learning for new systems even with limited measurement data.
+
 (3) Contribution
+
 - Using a meta-learning algorithm to extract governing rules across similar dynamical systems.
 
 - Using Neural ODEs and the Hamiltonian equations to continuously model dynamical systems and utilize the energy conservation principle.
@@ -59,11 +71,17 @@ Proposing a method using meta-learning algorithms to model governing equations f
 **3. Learning-based sound source classification and localization with limited data**
 
 <img src="/fig/zssl.png" width='250'>
+
 (1) Period
+
 2019.03 - 2021.02
+
 (2) Main content
+
 Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during the training.
+
 (3) Contribution
+
 - Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.
 
 - Using conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
