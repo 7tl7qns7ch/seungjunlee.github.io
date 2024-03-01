@@ -26,6 +26,10 @@ In the field of machine learning, such discussions are considered very important
 6. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
 7. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
+### Research Approach
+Here is an example of my research approach to achieve my research goal. Scientists have established a wave equation (model) to describe the sound that is made when a string is plucked. Even if the physical properties of the string, such as its thickness or length, change, the wave equation can still explain related phenomena, with only the parameters of the equation changing. Especially, with a small amount of data available for a new string (such as its position over time), the frequencies of the sound produced by the new string can be predicted. In addition, the new wave can be explained by the same equation through appropriate transformations (encoding/projection) from raw data, even if the medium (domain) changes, such as a string,
+water, air, or a metal plate. Furthermore, the wave equation can mathematically predict the various characteristics of general waves (such as reflection, refraction, diffraction, and interference), and this has been proven through the experience or experiments of many people, and it has been established as a very reliable model for explaining general waves. Therefore, it is scientifically more important to make a general model that can explain general waves, rather than a narrow model that is only suitable for sound produced by one instance of string. In the field of machine learning, similar discussions are also very important. I am researching and applying machine learning models and algorithms from a scientific modeling perspective.
+
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
