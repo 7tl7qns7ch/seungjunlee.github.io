@@ -37,9 +37,7 @@ water, air, or a metal plate. Furthermore, the wave equation can mathematically 
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
-<p align="center">
-  <img src="/fig/ipot.png" width='500'>
-</p>
+![IPOT](/fig/ipot.png)
 
 (1) Period
 
