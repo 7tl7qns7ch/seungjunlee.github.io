@@ -7,10 +7,10 @@ Therefore, it is more scientifically important, and at the same time very challe
 In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
 
 ### Education & Career History
-- AI researcher | Alsemy (alsemy.com) (_2022 - current_)
-- Ph.D. in Ocean Engineering | Seoul National University (_2017 - 2022_)
-- B.S in Ocean Engineering | Seoul National University (_2012 - 2017_)
-- Student | Hansung Science High School (_2009 - 2012_)
+- AI researcher | Alsemy (alsemy.com) (_2022-current_)
+- Ph.D. in Ocean Engineering | Seoul National University (_2017-2022_)
+- B.S in Ocean Engineering | Seoul National University (_2012-2017_)
+- Student | Hansung Science High School (_2009-2012_)
 
 ### Publications
 1. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
