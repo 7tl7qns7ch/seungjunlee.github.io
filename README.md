@@ -29,7 +29,9 @@ In the field of machine learning, such discussions are considered very important
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
-<img src="/fig/ipot.png" width='250'>
+<p align="center">
+  <img src="/fig/ipot.png" width='500'>
+</p>
 
 (1) Period
 
@@ -50,7 +52,9 @@ and scalable to large discretization sizes.
 
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
 
-<img src="/fig/hamaml.png" width='250'>
+<p align="center">
+  <img src="/fig/hamaml.png" width='500'>
+</p>
 
 (1) Period
 
@@ -70,7 +74,9 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 **3. Learning-based sound source classification and localization with limited data**
 
-<img src="/fig/zssl.png" width='250'>
+<p align="center">
+  <img src="/fig/zssl.png" width='500'>
+</p>
 
 (1) Period
 
