@@ -78,7 +78,7 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 **3. Learning-based sound source classification and localization with limited data**
 
-<img src="/assets/img/zssl" width='750'>
+<img src="/assets/img/zssl.png" width='750'>
 
 (1) Period
 
