@@ -30,6 +30,15 @@ In the field of machine learning, such discussions are considered very important
 Here is an example of my research approach to achieve my research goal. Scientists have established a wave equation (model) to describe the sound that is made when a string is plucked. Even if the physical properties of the string, such as its thickness or length, change, the wave equation can still explain related phenomena, with only the parameters of the equation changing. Especially, with a small amount of data available for a new string (such as its position over time), the frequencies of the sound produced by the new string can be predicted. In addition, the new wave can be explained by the same equation through appropriate transformations (encoding/projection) from raw data, even if the medium (domain) changes, such as a string,
 water, air, or a metal plate. Furthermore, the wave equation can mathematically predict the various characteristics of general waves (such as reflection, refraction, diffraction, and interference), and this has been proven through the experience or experiments of many people, and it has been established as a very reliable model for explaining general waves. Therefore, it is scientifically more important to make a general model that can explain general waves, rather than a narrow model that is only suitable for sound produced by one instance of string. In the field of machine learning, similar discussions are also very important. I am researching and applying machine learning models and algorithms from a scientific modeling perspective.
 
+### Teaching
+- Teaching Assistant at Seoul National University | Theory of Sound Wave Propagation in the Ocean | Fall 2021
+
+- Teaching Assistant at Seoul National University | Fundamentals of Underwater Acoustics | Spring 2021
+
+- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Spring 2020
+
+- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Fall 2019
+
 ### Projects
 **1. Developing efficient architecture for solving physical systems**
 
