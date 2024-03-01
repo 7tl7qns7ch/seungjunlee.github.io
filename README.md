@@ -60,9 +60,7 @@ and scalable to large discretization sizes.
 
 **2. Developing robust physics-based neural networks for analyzing dynamic systems**
 
-<p align="center">
-  <img src="/fig/hamaml.png" width='500'>
-</p>
+<img src="/fig/hamaml.png" width='500'>
 
 (1) Period
 
