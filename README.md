@@ -65,7 +65,7 @@ Developing a flexible and computationally efficient Transformer to learn physica
 
 (3) Contribution
 
-- Proposing a Transformer that is flexible in handling arbitrary discretization %formats 
+- Proposing a Transformer that is flexible in handling arbitrary discretization formats 
 and scalable to large discretization sizes.
 
 - Handling arbitrary input/output discretization by processing them in the latent space to avoid quadratic complexity.
