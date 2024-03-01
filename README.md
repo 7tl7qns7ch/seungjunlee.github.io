@@ -27,26 +27,6 @@ In the field of machine learning, such discussions are considered very important
 6. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
 7. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
-### Teaching
-- Teaching Assistant at Seoul National University | Theory of Sound Wave Propagation in the Ocean | Fall 2021
-
-- Teaching Assistant at Seoul National University | Fundamentals of Underwater Acoustics | Spring 2021
-
-- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Spring 2020
-
-- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Fall 2019
-
-### Awards
-- BK Education Research Group selected excellent graduate students | 2022
-
-- Korean Mathematical Olympiad (high school) - bronze prize | 2010
-
-- Korean Mathematical Olympiad (middle school) - gold prize | 2008
-
-- Korean Physics Olympiad (middle school) - silver prize | 2007
-
-- Korean Mathematical Olympiad (middle school) - silver prize | 2006
-
 ### Skills
 Python, PyTorch, JAX, Tensorflow, MATLAB, Julia, LATEX, SPICE
 
@@ -121,3 +101,23 @@ Developing a generative model to robustly estimate the position of sound sources
 - Using conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
 
 - Collecting extensive real-world environment sound datasets, including various types and locations to develop a robust sound generative model.
+
+### Teaching
+- Teaching Assistant at Seoul National University | Theory of Sound Wave Propagation in the Ocean | Fall 2021
+
+- Teaching Assistant at Seoul National University | Fundamentals of Underwater Acoustics | Spring 2021
+
+- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Spring 2020
+
+- Teaching Assistant at Seoul National University | Creative Experiments in Naval Architecture and Ocean Engineering | Fall 2019
+
+### Awards
+- BK Education Research Group selected excellent graduate students | 2022
+
+- Korean Mathematical Olympiad (high school) - bronze prize | 2010
+
+- Korean Mathematical Olympiad (middle school) - gold prize | 2008
+
+- Korean Physics Olympiad (middle school) - silver prize | 2007
+
+- Korean Mathematical Olympiad (middle school) - silver prize | 2006
