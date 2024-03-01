@@ -27,10 +27,13 @@ In the field of machine learning, such discussions are considered very important
 7. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Projects
+**1. Developing efficient architecture for solving physical systems**
 <img src="/fig/ipot.png" width='250'>
-- Developing efficient architecture for solving physical systems (_2022.08-2024.02_)
-Main content: Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
-
+(1) Period
+2022.08 - 2024.02
+(2) Main content
+Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
+(3) Contribution
 - Proposing a Transformer that is flexible in handling arbitrary discretization %formats 
 and scalable to large discretization sizes.
 
@@ -38,20 +41,28 @@ and scalable to large discretization sizes.
 
 - Achieving high accuracy and efficient computational costs in several PDE benchmarks and real-world scenarios.
 
+**2. Developing robust physics-based neural networks for analyzing dynamic systems**
 <img src="/fig/hamaml.png" width='250'>
-- Developing robust physics-based neural networks for analyzing dynamic systems}}{2021.03 \textendash 2022.08}{}{\textbf{Main content:} Proposing a method using meta-learning algorithms to model governing equations from similar dynamical systems, enabling rapid learning for new systems even with limited measurement data.}
+(1) Period
+2021.03 - 2022.08
+(2) Main content
+Proposing a method using meta-learning algorithms to model governing equations from similar dynamical systems, enabling rapid learning for new systems even with limited measurement data.
+(3) Contribution
+- Using a meta-learning algorithm to extract governing rules across similar dynamical systems.
 
-{- Using a meta-learning algorithm to extract governing rules across similar dynamical systems.}
+- Using Neural ODEs and the Hamiltonian equations to continuously model dynamical systems and utilize the energy conservation principle.
 
-{- Using Neural ODEs and the Hamiltonian equations to continuously model dynamical systems and utilize the energy conservation principle.}
+- Simulating various systems with different physical properties and initial conditions and validating the capability to efficiently learn new systems even with limited data.
 
-{- Simulating various systems with different physical properties and initial conditions and validating the capability to efficiently learn new systems even with limited data.}
+**3. Learning-based sound source classification and localization with limited data**
+<img src="/fig/zssl" width='250'>
+(1) Period
+2019.03 - 2021.02
+(2) Main content
+Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during the training.
+(3) Contribution
+- Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.
 
-\entrymid[\textbullet]
-{\textbf{Learning-based sound source classification and localization with limited data}}{2019.03 \textendash 2021.02}{}{\textbf{Main content:} Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during the training. }
+- Using conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
 
-{- Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.}
-
-{- Using conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.}
-
-{- Collecting extensive real-world environment sound datasets, including various types and locations to develop a robust sound generative model.}
+- Collecting extensive real-world environment sound datasets, including various types and locations to develop a robust sound generative model.
