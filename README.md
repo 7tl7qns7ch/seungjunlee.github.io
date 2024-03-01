@@ -27,7 +27,7 @@ In the field of machine learning, such discussions are considered very important
 7. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Projects
-<img src="/fig/ipot.png", width='25'>
+<img src="/fig/ipot.png" width='25'>
 - Developing efficient architecture for solving physical systems (_2022.08-2024.02_)
 Main content: Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
 
