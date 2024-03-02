@@ -8,7 +8,9 @@
 - [**Linkedin**](https://www.linkedin.com/in/seungjun-lee-656946213/)
 
 ### Research Interests & Goal
-**Scientific machine learning, generalization.**
+- **Scientific machine learning**
+- **Generalization**
+- **Artificial general intelligence**
 
 My research goal is to develop artificial general intelligence having the ability to think in a scientific way. 
 It is common in fields of science and engineering that a well-established governing rule can explain similar phenomena, not just fitting on data from a narrow domain. 
