@@ -19,8 +19,8 @@ In the field of machine learning, such discussions are considered very important
 
 ### Education & Career History
 - AI researcher at Alsemy (alsemy.com), 2022 - current
-- Ph.D. in Ocean Engineering, Seoul National University, 2017 - 2022
-- B.S in Ocean Engineering, Seoul National University, 2012 - 2017
+- Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University, 2017 - 2022
+- B.S in Naval Architecture and Ocean Engineering, Seoul National University, 2012 - 2017
 - Student at Hansung Science High School, 2009 - 2012
 
 ### Publications
