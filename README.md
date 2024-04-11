@@ -9,7 +9,7 @@
 
 ### Research Interests & Goal
 - **Scientific machine learning**
-- **Physics-informed machine learning**
+- **Physics-informed neural networks**
 - **Generalization**
 - **Artificial general intelligence**
 
