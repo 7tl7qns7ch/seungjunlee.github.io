@@ -19,7 +19,8 @@ Therefore, it is more scientifically important, and at the same time very challe
 In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
 
 ### Education & Career History
-- AI researcher at Alsemy (alsemy.com), 2022 - current
+- Research Associate in Computational Science Initiative, Brookhaven National Laboratory, July 2024 -
+- AI researcher at Alsemy (alsemy.com), 2022 - May 2024
 - Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University, 2017 - 2022
 - B.S in Naval Architecture and Ocean Engineering, Seoul National University, 2012 - 2017
 - Student at Hansung Science High School, 2009 - 2012
