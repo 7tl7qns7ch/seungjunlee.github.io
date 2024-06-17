@@ -19,11 +19,11 @@ Therefore, it is more scientifically important, and at the same time very challe
 In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
 
 ### Education & Career History
-- 2024 - Current     Research Associate in Computational Science Initiative, Brookhaven National Laboratory
-- 2022 - 2024        AI researcher at Alsemy, South Korea
-- 2017 - 2022        Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
-- 2012 - 2017        B.S in Naval Architecture and Ocean Engineering, Seoul National University
-- 2009 - 2012        Student at Hansung Science High School
+- 2024 - current$~$Research Associate in Computational Science Initiative, Brookhaven National Laboratory
+- 2022 - 2024$~~$AI researcher at Alsemy, South Korea
+- 2017 - 2022$~~$Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
+- 2012 - 2017$~~$B.S in Naval Architecture and Ocean Engineering, Seoul National University
+- 2009 - 2012$~~$Student at Hansung Science High School
 
 ### Publications
 1. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
