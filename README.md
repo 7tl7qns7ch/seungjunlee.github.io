@@ -21,9 +21,9 @@ In the field of machine learning, such discussions are considered very important
 ### Education & Career History
 - 2024 - current &emsp; Research Associate in Computational Science Initiative, Brookhaven National Laboratory
 - 2022 - 2024 &emsp;&emsp; AI researcher at Alsemy, South Korea
-- 2017 - 2022$~~$Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
-- 2012 - 2017$~~$B.S in Naval Architecture and Ocean Engineering, Seoul National University
-- 2009 - 2012$~~$Student at Hansung Science High School
+- 2017 - 2022 &emsp;&emsp; Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
+- 2012 - 2017 &emsp;&emsp; B.S in Naval Architecture and Ocean Engineering, Seoul National University
+- 2009 - 2012 &emsp;&emsp; Student at Hansung Science High School
 
 ### Publications
 1. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
