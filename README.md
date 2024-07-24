@@ -1,7 +1,7 @@
 # Seungjun Lee
 
 ### Contact Information
-- **Email:** tl7qns7ch@snu.ac.kr
+- **Email:** slee19@bnl.gov
 - [**Curriculum Vitae**](/assets/CV_SeungjunLee_202407.pdf)
 - [**Google Scholar**](https://scholar.google.com/citations?user=0O-A7g0AAAAJ&hl)
 - [**Github**](https://github.com/7tl7qns7ch)
