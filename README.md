@@ -19,8 +19,8 @@ Therefore, it is more scientifically important, and at the same time very challe
 In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
 
 ### Education & Career History
-- 2025 - current &emsp; Research Staff in Computing and Data Sciences, Brookhaven National Laboratory
-- 2024 - 2025 &emsp; Research Associate in Computing and Data Sciences, Brookhaven National Laboratory
+- 2025 - current &emsp;&emsp; Research Staff in Computing and Data Sciences, Brookhaven National Laboratory
+- 2024 - 2025 &emsp;&emsp; Research Associate in Computing and Data Sciences, Brookhaven National Laboratory
 - 2022 - 2024 &emsp;&emsp; AI researcher at Alsemy, South Korea
 - 2017 - 2022 &emsp;&emsp; Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
 - 2012 - 2017 &emsp;&emsp; B.S in Naval Architecture and Ocean Engineering, Seoul National University
