@@ -27,15 +27,16 @@ In the field of machine learning, such discussions are considered very important
 - 2009 - 2012 &emsp;&emsp; Student at Hansung Science High School
 
 ### Publications
-1. David Keetae Park, Xihaier Luo, Guang Zhao, **Seungjun Lee**, Miruna Oprescu, Shinjae Yoo, SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields, International Conference on Machine Learning, 2025.
-2. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
-3. Chanwoo Park, **Seungjun Lee**, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, and Hyunbo Cho, Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation, IEEE Journal of Electron Devices Society, 2024.
-4. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference on Machine Learning Workshop on AI for Science, 2022.
-5. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
-6. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
-7. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
-8. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
-9. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
+1. Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, **Seungjun Lee**, Noseong Park, Kookjin Lee, PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling, The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
+2. David Keetae Park, Xihaier Luo, Guang Zhao, **Seungjun Lee**, Miruna Oprescu, Shinjae Yoo, SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields, International Conference on Machine Learning, 2025.
+3. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
+4. Chanwoo Park, **Seungjun Lee**, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, and Hyunbo Cho, Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation, IEEE Journal of Electron Devices Society, 2024.
+5. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference on Machine Learning Workshop on AI for Science, 2022.
+6. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
+7. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
+8. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
+9. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
+10. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Academic Service
 ICLR 2025, Neurips 2025, AAAI 2026
