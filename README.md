@@ -27,7 +27,7 @@ In the field of machine learning, such discussions are considered very important
 - 2009 - 2012 &emsp;&emsp; Student at Hansung Science High School
 
 ### Publications
-1. Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, **Seungjun Lee**, Noseong Park, Kookjin Lee, PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling, The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
+1. Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, **Seungjun Lee**, Noseong Park, Kookjin Lee, PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling, Advances in Neural Information Processing Systems, 2025.
 2. David Keetae Park, Xihaier Luo, Guang Zhao, **Seungjun Lee**, Miruna Oprescu, Shinjae Yoo, SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields, International Conference on Machine Learning, 2025.
 3. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
 4. Chanwoo Park, **Seungjun Lee**, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, and Hyunbo Cho, Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation, IEEE Journal of Electron Devices Society, 2024.
