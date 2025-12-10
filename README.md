@@ -39,7 +39,7 @@ In the field of machine learning, such discussions are considered very important
 10. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Academic Service
-ICLR (2025, 2026), Neurips (2025), AAAI (2026)
+ICLR (2025, 2026), Neurips (2025), AAAI (2026), TMLR (2025)
 
 ### Teaching
 - Teaching Assistant at Seoul National University, Theory of Sound Wave Propagation in the Ocean, Fall 2021
