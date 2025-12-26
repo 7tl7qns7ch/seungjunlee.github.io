@@ -2,7 +2,7 @@
 
 ### Contact Information
 - **Email:** slee19@bnl.gov
-- [**Curriculum Vitae**](/assets/CV_LSJ_251215.pdf)
+- [**Curriculum Vitae**](/assets/CV_LSJ_251226.pdf)
 - [**Google Scholar**](https://scholar.google.com/citations?user=0O-A7g0AAAAJ&hl)
 - [**Github**](https://github.com/7tl7qns7ch)
 - [**Linkedin**](https://www.linkedin.com/in/seungjun-lee-656946213/)
