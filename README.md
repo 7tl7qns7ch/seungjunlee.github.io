@@ -39,7 +39,7 @@ In the field of machine learning, such discussions are considered very important
 10. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Academic Service
-ICLR (2025, 2026), Neurips (2025), AAAI (2026), TMLR (2025)
+ICLR (2025, 2026), ICML (2026), Neurips (2025), AAAI (2026), TMLR (2025)
 
 ### Teaching
 - Teaching Assistant at Seoul National University, Theory of Sound Wave Propagation in the Ocean, Fall 2021
@@ -96,7 +96,7 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 - Using Neural ODEs and the Hamiltonian equations to continuously model dynamical systems and utilize the energy conservation principle.
 
-- Simulating various systems with different physical properties and initial conditions and validating the capability to efficiently learn new systems even with limited data.
+- Simulating various systems with different physical properties and initial conditions, and validating the capability to efficiently learn new systems even with limited data.
 
 **3. Learning-based sound source classification and localization with limited data (2019.03 - 2021.02)**
 
@@ -104,15 +104,15 @@ Proposing a method using meta-learning algorithms to model governing equations f
 
 (1) Main content
 
-Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during the training.
+Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during training.
 
 (2) Contribution
 
 - Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.
 
-- Using conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
+- Using a conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
 
-- Collecting extensive real-world environment sound datasets, including various types and locations to develop a robust sound generative model.
+- Collecting extensive real-world environment sound datasets, including various types and locations, to develop a robust sound generative model.
 
 ### Research Approach
 Here is an example of my research approach to achieve my research goal. Scientists have established a wave equation (model) to describe the sound that is made when a string is plucked. Even if the physical properties of the string, such as its thickness or length, change, the wave equation can still explain related phenomena, with only the parameters of the equation changing. Especially, with a small amount of data available for a new string (such as its position over time), the frequencies of the sound produced by the new string can be predicted. In addition, the new wave can be explained by the same equation through appropriate transformations (encoding/projection) from raw data, even if the medium (domain) changes, such as a string,
