@@ -27,17 +27,18 @@ In the field of machine learning, such discussions are considered very important
 - 2009 - 2012 &emsp;&emsp; Student at Hansung Science High School
 
 ### Publications
-1. **Seungjun Lee**, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, Maria Chamizo-Llatas, Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma, International Conference on Machine Learning Workshop on AI for Physics, 2026.
+1. **Seungjun Lee**, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, and Maria Chamizo-Llatas, Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma, International Conference on Machine Learning Workshop on AI for Physics, 2026.
 2. Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, **Seungjun Lee**, Noseong Park, Kookjin Lee, PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling, Advances in Neural Information Processing Systems, 2025.
 3. David Keetae Park, Xihaier Luo, Guang Zhao, **Seungjun Lee**, Miruna Oprescu, Shinjae Yoo, SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields, International Conference on Machine Learning, 2025.
-4. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
+4. Guang Zhao, Xihaier Luo, **Seungjun Lee**, Yihui Ren, Shinjae Yoo, Luke Van Roekel, Balu Nadiga, Sri Hari Krishna Narayanan, Yixuan Sun, and Wei Xu, Generalizable Implicit Neural Representations via Parameterized Latent Dynamics for Baroclinic Ocean Forecasting, International Conference on Learning Representations 2025 Tackling Climate Change with Machine Learning Workshop, 2025.
 5. Chanwoo Park, **Seungjun Lee**, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, and Hyunbo Cho, Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation, IEEE Journal of Electron Devices Society, 2024.
-6. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference on Machine Learning Workshop on AI for Science, 2022.
-7. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
-8. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
-9. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
-10. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
-11. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
+6. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
+7. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference on Machine Learning Workshop on AI for Science, 2022.
+8. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
+9. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
+10. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
+11. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
+12. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
 
 ### Academic Service
 ICLR (2025, 2026), ICML (2026), Neurips (2025, 2026), AAAI (2026), TMLR (2025)
