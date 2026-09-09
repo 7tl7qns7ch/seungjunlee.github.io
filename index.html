@@ -120,6 +120,10 @@
   ul.pubs .thumb-empty {
     width: 180px;
   }
+  ul.pubs .thumb.tall {
+    width: auto;
+    max-height: 150px;
+  }
   ul.pubs .title {
     display: block;
     font-weight: 600;
@@ -180,6 +184,7 @@
     dd { margin-bottom: 2px; }
     ul.pubs li { grid-template-columns: 1fr; gap: 8px 0; }
     ul.pubs .thumb { width: 60%; max-width: 240px; }
+    ul.pubs .thumb.tall { width: auto; max-height: 180px; }
     ul.pubs .thumb-empty { display: none; }
   }
 </style>
@@ -272,7 +277,7 @@
     </li>
 
     <li>
-      <img class="thumb" src="assets/img/mesh.png" alt="">
+      <img class="thumb tall" src="assets/img/mesh.png" alt="">
       <div>
       <span class="title">Mesh-Independent Operator Learning for Partial Differential Equations</span>
       <span class="authors"><b>Seungjun Lee</b></span>
@@ -312,7 +317,7 @@
     </li>
 
     <li>
-      <img class="thumb" src="assets/img/eusipco.png" alt="">
+      <img class="thumb tall" src="assets/img/eusipco.png" alt="">
       <div>
       <span class="title">Type/Position Classification of Inter-Floor Noise in Residential Buildings with a Single Microphone via Supervised Learning</span>
       <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
