@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seungjun Lee</title>
+<meta name="description" content="Seungjun Lee — machine learning researcher at Brookhaven National Laboratory. Neural operators, generative models for inverse problems, uncertainty quantification.">
+<link rel="canonical" href="https://7tl7qns7ch.github.io/seungjunlee.github.io/">
+<style>
+  :root {
+    --ink: #1B2A3B;
+    --ink-2: #5B6B7B;
+    --ink-3: #8A97A4;
+    --link: #1F5FA0;
+    --rule: #E3E8ED;
+    --bg: #FFFFFF;
+    --measure: 680px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover { border-bottom-color: currentColor; }
+  a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+    border-bottom-color: transparent;
+  }
+
+  main {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  /* Header */
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 44px;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  header .role {
+    margin: 0 0 14px;
+    color: var(--ink-2);
+  }
+  header .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 15px;
+  }
+  header img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Intro */
+  .intro p { margin: 0 0 14px; max-width: 62ch; }
+  .intro { margin-bottom: 44px; }
+
+  /* Sections */
+  section { margin-bottom: 48px; }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 16px;
+    letter-spacing: -0.005em;
+  }
+
+  /* Publications — the hero */
+  ol.pubs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: pub;
+  }
+  ol.pubs li {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 18px;
+    counter-increment: pub;
+  }
+  ol.pubs li::before {
+    content: counter(pub);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--ink-3);
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+  ol.pubs .title {
+    display: block;
+    font-weight: 600;
+  }
+  ol.pubs .authors {
+    display: block;
+    color: var(--ink-2);
+    font-size: 15px;
+  }
+  ol.pubs .authors b { color: var(--ink); font-weight: 600; }
+  ol.pubs .venue {
+    display: block;
+    color: var(--ink-2);
+    font-size: 15px;
+  }
+  ol.pubs .refs {
+    display: inline-flex;
+    gap: 12px;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+  /* Co-author papers step back one level */
+  ol.pubs li.coauthor .title { font-weight: 500; color: var(--ink-2); }
+  ol.pubs li.coauthor .authors,
+  ol.pubs li.coauthor .venue { color: var(--ink-3); }
+
+  /* Selected work */
+  .work { padding: 0; margin: 0; list-style: none; }
+  .work li { margin-bottom: 16px; max-width: 62ch; }
+  .work .name { font-weight: 600; }
+  .work .desc { color: var(--ink-2); }
+
+  /* Compact key-value lists (background, awards, service) */
+  dl {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    gap: 6px 20px;
+    margin: 0;
+  }
+  dt { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  dd { margin: 0; }
+
+  .awards { padding: 0; margin: 0; list-style: none; }
+  .awards li { margin-bottom: 6px; }
+  .awards span { color: var(--ink-2); }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+
+  @media (max-width: 560px) {
+    main { padding: 36px 20px 72px; }
+    header { grid-template-columns: 1fr; }
+    header img { width: 72px; height: 72px; order: -1; }
+    dl { grid-template-columns: 1fr; gap: 2px 0; }
+    dt { margin-top: 10px; }
+    dd { margin-bottom: 2px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div>
+    <h1>Seungjun Lee</h1>
+    <p class="role">Research Staff, Brookhaven National Laboratory</p>
+    <ul class="links">
+      <li><a href="mailto:slee19@bnl.gov">slee19@bnl.gov</a></li>
+      <li><a href="https://scholar.google.com/citations?user=0O-A7g0AAAAJ">Google Scholar</a></li>
+      <li><a href="https://github.com/7tl7qns7ch">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/seungjun-lee-656946213/">LinkedIn</a></li>
+      <li><a href="assets/CV_LSJ_260611.pdf">CV</a></li>
+    </ul>
+  </div>
+  <img src="assets/img/seungjunlee.jpeg" alt="Seungjun Lee" width="96" height="96">
+</header>
+
+<div class="intro">
+  <p>I build machine learning models for complex physical systems. Three threads run through my work: neural operator surrogates that replace expensive PDE solvers, diffusion-based methods for inverse problems on experimental data, and uncertainty quantification for scientific prediction.</p>
+  <p>At Brookhaven I work on surrogate models for relativistic hydrodynamics, phase retrieval from X-ray diffraction, and test-time scaling for robot policies. I train at scale on NERSC Perlmutter in PyTorch and JAX, and review for NeurIPS, ICML, ICLR, AAAI, and TMLR.</p>
+</div>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ol class="pubs">
+
+    <li>
+      <span class="title">Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma</span>
+      <span class="authors"><b>Seungjun Lee</b>, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, Maria Chamizo-Llatas</span>
+      <span class="venue">ICML Workshop on AI for Physics, 2026</span>
+      <span class="refs"><a href="#">paper</a><a href="#">code</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling</span>
+      <span class="authors">Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, <b>Seungjun Lee</b>, Noseong Park, Kookjin Lee</span>
+      <span class="venue">NeurIPS, 2025</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields</span>
+      <span class="authors">David Keetae Park, Xihaier Luo, Guang Zhao, <b>Seungjun Lee</b>, Miruna Oprescu, Shinjae Yoo</span>
+      <span class="venue">ICML, 2025</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">Generalizable Implicit Neural Representations via Parameterized Latent Dynamics for Baroclinic Ocean Forecasting</span>
+      <span class="authors">Guang Zhao, Xihaier Luo, <b>Seungjun Lee</b>, Yihui Ren, Shinjae Yoo, Luke Van Roekel, Balu Nadiga, Sri Hari Krishna Narayanan, Yixuan Sun, Wei Xu</span>
+      <span class="venue">ICLR Workshop on Tackling Climate Change with ML, 2025</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation</span>
+      <span class="authors">Chanwoo Park, <b>Seungjun Lee</b>, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, Hyunbo Cho</span>
+      <span class="venue">IEEE Journal of the Electron Devices Society, 2024</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li>
+      <span class="title">Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs</span>
+      <span class="authors"><b>Seungjun Lee</b>, Taeil Oh</span>
+      <span class="venue">AAAI, 2024</span>
+      <span class="refs"><a href="#">paper</a><a href="https://github.com/7tl7qns7ch/IPOT">code</a></span>
+    </li>
+
+    <li>
+      <span class="title">Mesh-Independent Operator Learning for Partial Differential Equations</span>
+      <span class="authors"><b>Seungjun Lee</b></span>
+      <span class="venue">ICML Workshop on AI for Science, 2022</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li>
+      <span class="title">Identifying Physical Law of Hamiltonian Systems via Meta-Learning</span>
+      <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Woojae Seong</span>
+      <span class="venue">ICLR, 2021</span>
+      <span class="refs"><a href="#">paper</a><a href="https://github.com/7tl7qns7ch/Identifying-Physical-Law">code</a></span>
+    </li>
+
+    <li>
+      <span class="title">Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features</span>
+      <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Hwiyong Choi, Woojae Seong</span>
+      <span class="venue">IEEE Transactions on Multimedia, 2021</span>
+      <span class="refs"><a href="#">paper</a><a href="https://github.com/7tl7qns7ch/SNU-B36-EX">data</a></span>
+    </li>
+
+    <li>
+      <span class="title">Meta-Learned Hamiltonian</span>
+      <span class="authors"><b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">NeurIPS Workshop on Machine Learning and the Physical Sciences, 2020</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">Type/Position Classification of Inter-Floor Noise in Residential Buildings with a Single Microphone via Supervised Learning</span>
+      <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">EUSIPCO, 2020</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+    <li class="coauthor">
+      <span class="title">Classification of Inter-Floor Noise Type/Position via Convolutional Neural Network-Based Supervised Learning</span>
+      <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">Applied Sciences, 2019</span>
+      <span class="refs"><a href="#">paper</a></span>
+    </li>
+
+  </ol>
+</section>
+
+<section id="work">
+  <h2>Selected work</h2>
+  <ul class="work">
+    <li>
+      <span class="name">Neural operator surrogates for quark-gluon plasma hydrodynamics.</span>
+      <span class="desc">Replacing 3+1D viscous relativistic hydrodynamic solvers with a tensorized Fourier neural operator, trained on large simulation ensembles for event-by-event heavy-ion physics at RHIC.</span>
+    </li>
+    <li>
+      <span class="name">Diffusion-based phase retrieval for X-ray diffraction.</span>
+      <span class="desc">Plug-and-play diffusion priors for inverting ptychography and Bragg coherent diffraction data, evaluated on real experimental measurements rather than simulation alone.</span>
+    </li>
+    <li>
+      <span class="name">Test-time scaling for vision-language-action policies.</span>
+      <span class="desc">Studying when additional inference-time compute improves flow-matching robot policies, and what limits it. Embodied AI LDRD at Brookhaven.</span>
+    </li>
+    <li>
+      <span class="name">Neural compact models for semiconductor devices.</span>
+      <span class="desc">Large-scale training of MOSFET surrogates for SPICE-compatible circuit simulation at Alsemy.</span>
+    </li>
+  </ul>
+</section>
+
+<section id="background">
+  <h2>Background</h2>
+  <dl>
+    <dt>2025 –</dt><dd>Research Staff, Computing and Data Sciences, Brookhaven National Laboratory</dd>
+    <dt>2024 – 2025</dt><dd>Research Associate, Brookhaven National Laboratory</dd>
+    <dt>2022 – 2024</dt><dd>AI Researcher, Alsemy, Seoul</dd>
+    <dt>2017 – 2022</dt><dd>PhD, Seoul National University. Advisor: Woojae Seong</dd>
+    <dt>2012 – 2017</dt><dd>BS, Seoul National University</dd>
+  </dl>
+</section>
+
+<section id="awards">
+  <h2>Awards</h2>
+  <ul class="awards">
+    <li>Korean Mathematical Olympiad, Gold <span>(middle school, 2008)</span> and Bronze <span>(high school, 2010)</span></li>
+    <li>Korean Physics Olympiad, Silver <span>(middle school, 2007)</span></li>
+    <li>Outstanding Graduate Student, BK21 Program <span>(2022)</span></li>
+  </ul>
+</section>
+
+<section id="service">
+  <h2>Reviewing</h2>
+  <p style="margin:0">NeurIPS 2025, 2026. ICML 2026. ICLR 2025, 2026. AAAI 2026. TMLR 2025.</p>
+</section>
+
+<footer>
+  Last updated September 2026
+</footer>
+
+</main>
+</body>
+</html>
