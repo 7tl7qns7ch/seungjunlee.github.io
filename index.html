@@ -99,52 +99,52 @@
   }
 
   /* Publications — the hero */
-  ol.pubs {
+  ul.pubs {
     list-style: none;
     padding: 0;
     margin: 0;
-    counter-reset: pub;
   }
-  ol.pubs li {
-    position: relative;
-    padding-left: 32px;
-    margin-bottom: 18px;
-    counter-increment: pub;
+  ul.pubs li {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0 18px;
+    align-items: start;
+    margin-bottom: 22px;
   }
-  ol.pubs li::before {
-    content: counter(pub);
-    position: absolute;
-    left: 0;
-    top: 1px;
-    color: var(--ink-3);
-    font-size: 14px;
-    font-variant-numeric: tabular-nums;
+  ul.pubs .thumb {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: #F1F4F7;
+    display: block;
   }
-  ol.pubs .title {
+  ul.pubs .thumb-empty {
+    width: 120px;
+    height: 80px;
+  }
+  ul.pubs .title {
     display: block;
     font-weight: 600;
+    color: var(--ink);
   }
-  ol.pubs .authors {
+  ul.pubs .authors {
     display: block;
     color: var(--ink-2);
     font-size: 15px;
   }
-  ol.pubs .authors b { color: var(--ink); font-weight: 600; }
-  ol.pubs .venue {
+  ul.pubs .authors b { color: var(--ink); font-weight: 600; }
+  ul.pubs .venue {
     display: block;
     color: var(--ink-2);
     font-size: 15px;
   }
-  ol.pubs .refs {
+  ul.pubs .refs {
     display: inline-flex;
     gap: 12px;
     margin-top: 3px;
     font-size: 14px;
   }
-  /* Co-author papers step back one level */
-  ol.pubs li.coauthor .title { font-weight: 500; color: var(--ink-2); }
-  ol.pubs li.coauthor .authors,
-  ol.pubs li.coauthor .venue { color: var(--ink-3); }
 
   /* Selected work */
   .work { padding: 0; margin: 0; list-style: none; }
@@ -181,6 +181,9 @@
     dl { grid-template-columns: 1fr; gap: 2px 0; }
     dt { margin-top: 10px; }
     dd { margin-bottom: 2px; }
+    ul.pubs li { grid-template-columns: 1fr; gap: 8px 0; }
+    ul.pubs .thumb { width: 100%; height: auto; max-height: 160px; }
+    ul.pubs .thumb-empty { display: none; }
   }
 </style>
 </head>
@@ -209,93 +212,129 @@
 
 <section id="publications">
   <h2>Publications</h2>
-  <ol class="pubs">
+  <ul class="pubs">
 
     <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma</span>
       <span class="authors"><b>Seungjun Lee</b>, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, Maria Chamizo-Llatas</span>
       <span class="venue">ICML Workshop on AI for Physics, 2026</span>
       <span class="refs"><a href="#">paper</a><a href="#">code</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling</span>
       <span class="authors">Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, <b>Seungjun Lee</b>, Noseong Park, Kookjin Lee</span>
       <span class="venue">NeurIPS, 2025</span>
       <span class="refs"><a href="https://arxiv.org/abs/2506.12790">paper</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields</span>
       <span class="authors">David Keetae Park, Xihaier Luo, Guang Zhao, <b>Seungjun Lee</b>, Miruna Oprescu, Shinjae Yoo</span>
       <span class="venue">ICML, 2025</span>
       <span class="refs"><a href="https://arxiv.org/abs/2504.12262">paper</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Generalizable Implicit Neural Representations via Parameterized Latent Dynamics for Baroclinic Ocean Forecasting</span>
       <span class="authors">Guang Zhao, Xihaier Luo, <b>Seungjun Lee</b>, Yihui Ren, Shinjae Yoo, Luke Van Roekel, Balu Nadiga, Sri Hari Krishna Narayanan, Yixuan Sun, Wei Xu</span>
       <span class="venue">ICLR Workshop on Tackling Climate Change with ML, 2025</span>
       <span class="refs"><a href="#">paper</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation</span>
       <span class="authors">Chanwoo Park, <b>Seungjun Lee</b>, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, Hyunbo Cho</span>
       <span class="venue">IEEE Journal of the Electron Devices Society, 2024</span>
       <span class="refs"><a href="https://ieeexplore.ieee.org/document/10566861">paper</a></span>
+      </div>
     </li>
 
     <li>
+      <img class="thumb" src="assets/img/ipot.png" alt="">
+      <div>
       <span class="title">Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs</span>
       <span class="authors"><b>Seungjun Lee</b>, Taeil Oh</span>
       <span class="venue">AAAI, 2024</span>
       <span class="refs"><a href="https://arxiv.org/abs/2312.10975">paper</a><a href="https://github.com/7tl7qns7ch/IPOT">code</a></span>
+      </div>
     </li>
 
     <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Mesh-Independent Operator Learning for Partial Differential Equations</span>
       <span class="authors"><b>Seungjun Lee</b></span>
       <span class="venue">ICML Workshop on AI for Science, 2022</span>
       <span class="refs"><a href="https://openreview.net/forum?id=JUtZG8-2vGp">paper</a></span>
+      </div>
     </li>
 
     <li>
+      <img class="thumb" src="assets/img/hamaml.png" alt="">
+      <div>
       <span class="title">Identifying Physical Law of Hamiltonian Systems via Meta-Learning</span>
       <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Woojae Seong</span>
       <span class="venue">ICLR, 2021</span>
       <span class="refs"><a href="https://arxiv.org/abs/2102.11544">paper</a><a href="https://github.com/7tl7qns7ch/Identifying-Physical-Law">code</a></span>
+      </div>
     </li>
 
     <li>
+      <img class="thumb" src="assets/img/zssl.png" alt="">
+      <div>
       <span class="title">Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features</span>
       <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Hwiyong Choi, Woojae Seong</span>
       <span class="venue">IEEE Transactions on Multimedia, 2021</span>
       <span class="refs"><a href="https://ieeexplore.ieee.org/document/9430672">paper</a><a href="https://github.com/7tl7qns7ch/SNU-B36-EX">data</a></span>
+      </div>
     </li>
 
     <li>
+      <img class="thumb" src="assets/img/hamaml.png" alt="">
+      <div>
       <span class="title">Meta-Learned Hamiltonian</span>
       <span class="authors"><b>Seungjun Lee</b>, Woojae Seong</span>
       <span class="venue">NeurIPS Workshop on Machine Learning and the Physical Sciences, 2020</span>
       <span class="refs"><a href="https://www.semanticscholar.org/paper/ca0bf46f11fd29d5626e49a5d17b7c4240d31c92">paper</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Type/Position Classification of Inter-Floor Noise in Residential Buildings with a Single Microphone via Supervised Learning</span>
       <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
       <span class="venue">EUSIPCO, 2020</span>
       <span class="refs"><a href="#">paper</a></span>
+      </div>
     </li>
 
-    <li class="coauthor">
+    <li>
+      <span class="thumb-empty"></span>
+      <div>
       <span class="title">Classification of Inter-Floor Noise Type/Position via Convolutional Neural Network-Based Supervised Learning</span>
       <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
       <span class="venue">Applied Sciences, 2019</span>
       <span class="refs"><a href="#">paper</a></span>
+      </div>
     </li>
 
-  </ol>
+  </ul>
 </section>
 
 <section id="work">
