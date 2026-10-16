@@ -1,121 +1,411 @@
-# Seungjun Lee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seungjun Lee</title>
+<meta name="description" content="Seungjun Lee — machine learning researcher at Brookhaven National Laboratory. Neural operators, generative models for inverse problems, uncertainty quantification.">
+<link rel="canonical" href="https://7tl7qns7ch.github.io/seungjunlee.github.io/">
+<meta property="og:title" content="Seungjun Lee">
+<meta property="og:description" content="Machine learning for complex physical systems — neural operators, diffusion-based inverse solvers, uncertainty quantification. Research Staff at Brookhaven National Laboratory.">
+<meta property="og:image" content="https://7tl7qns7ch.github.io/seungjunlee.github.io/assets/img/og_image.png">
+<meta property="og:url" content="https://7tl7qns7ch.github.io/seungjunlee.github.io/">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --ink: #1B2A3B;
+    --ink-2: #5B6B7B;
+    --ink-3: #8A97A4;
+    --link: #1F5FA0;
+    --rule: #E3E8ED;
+    --bg: #FFFFFF;
+    --measure: 880px;
+  }
 
-### Contact Information
-- **Email:** slee19@bnl.gov
-- [**Curriculum Vitae**](/assets/CV_LSJ.pdf)
-- [**Google Scholar**](https://scholar.google.com/citations?user=0O-A7g0AAAAJ&hl)
-- [**Github**](https://github.com/7tl7qns7ch)
-- [**Linkedin**](https://www.linkedin.com/in/seungjun-lee-656946213/)
+  * { box-sizing: border-box; }
 
-### Research Interests & Goal
-- **Scientific machine learning**
-- **Physics-informed neural networks**
-- **Generalization**
-- **Artificial general intelligence**
+  html { -webkit-text-size-adjust: 100%; }
 
-My research goal is to develop artificial general intelligence having the ability to think in a scientific way. 
-It is common in fields of science and engineering that a well-established governing rule can explain similar phenomena, not just fitting on data from a narrow domain. 
-Therefore, it is more scientifically important, and at the same time very challenging, to develop a general model that can explain many related phenomena rather than a narrow model. 
-In the field of machine learning, such discussions are considered very important problems, and I am enthusiastic about the study of approaching and applying learning-based models and algorithms from a scientific modeling perspective.
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
 
-### Education & Career History
-- 2025 - current &emsp; Research Staff in Computing and Data Sciences, Brookhaven National Laboratory
-- 2024 - 2025 &emsp;&emsp; Research Associate in Computing and Data Sciences, Brookhaven National Laboratory
-- 2022 - 2024 &emsp;&emsp; AI researcher at Alsemy, South Korea
-- 2017 - 2022 &emsp;&emsp; Ph.D. in Naval Architecture and Ocean Engineering, Seoul National University
-- 2012 - 2017 &emsp;&emsp; B.S in Naval Architecture and Ocean Engineering, Seoul National University
-- 2009 - 2012 &emsp;&emsp; Student at Hansung Science High School
+  a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover { border-bottom-color: currentColor; }
+  a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+    border-bottom-color: transparent;
+  }
 
-### Publications
-1. **Seungjun Lee**, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, and Maria Chamizo-Llatas, Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma, International Conference on Machine Learning Workshop on AI for Physics, 2026.
-2. Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, **Seungjun Lee**, Noseong Park, Kookjin Lee, PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling, Advances in Neural Information Processing Systems, 2025.
-3. David Keetae Park, Xihaier Luo, Guang Zhao, **Seungjun Lee**, Miruna Oprescu, Shinjae Yoo, SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields, International Conference on Machine Learning, 2025.
-4. Guang Zhao, Xihaier Luo, **Seungjun Lee**, Yihui Ren, Shinjae Yoo, Luke Van Roekel, Balu Nadiga, Sri Hari Krishna Narayanan, Yixuan Sun, and Wei Xu, Generalizable Implicit Neural Representations via Parameterized Latent Dynamics for Baroclinic Ocean Forecasting, International Conference on Learning Representations 2025 Tackling Climate Change with Machine Learning Workshop, 2025.
-5. Chanwoo Park, **Seungjun Lee**, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, and Hyunbo Cho, Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation, IEEE Journal of Electron Devices Society, 2024.
-6. **Seungjun Lee**, and Tail Oh, Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs, AAAI Conference on Artificial Intelligence, 2024.
-7. **Seungjun Lee**, Mesh-Independent Operator Learning for Partial Differential Equations, International Conference on Machine Learning Workshop on AI for Science, 2022.
-8. **Seungjun Lee**, Haesang Yang, and Woojae Seong, Identifying Physical Law of Hamiltonian Systems via Meta-Learning, International Conference on Learning Representations, 2021.
-9. **Seungjun Lee**, Haesang Yang, Hwiyong Choi, and Woojae Seong, Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features, IEEE Transactions on Multimedia, 2021.
-10. **Seungjun Lee**, and Woojae Seong, Meta-Learned Hamiltonian, Neural Information Processing Systems Workshop on Machine Learning and Physical Sciences, 2020.
-11. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Type/position classification of inter-floor noise in residual buildings with a single microphone via supervised learning, IEEE European Signal Processing Conference, 2020.
-12. Hwiyong Choi, Haesang Yang, **Seungjun Lee**, and Woojae Seong, Classification of Inter-Floor Noise Type/Position Via Convolutional Neural Network-Based Supervised Learning, Applied Science, 2019.
+  main {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
 
-### Academic Service
-ICLR (2025, 2026), ICML (2026), Neurips (2025, 2026), AAAI (2026), TMLR (2025)
+  /* Header */
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 44px;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  header .role {
+    margin: 0 0 14px;
+    color: var(--ink-2);
+  }
+  header .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 15px;
+  }
+  header img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
 
-### Teaching
-- Teaching Assistant at Seoul National University, Theory of Sound Wave Propagation in the Ocean, Fall 2021
+  /* Intro */
+  .intro p { margin: 0 0 14px; max-width: 68ch; }
+  .intro { margin-bottom: 44px; }
 
-- Teaching Assistant at Seoul National University, Fundamentals of Underwater Acoustics, Spring 2021
+  /* Sections */
+  section { margin-bottom: 48px; }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 16px;
+    letter-spacing: -0.005em;
+  }
 
-- Teaching Assistant at Seoul National University, Creative Experiments in Naval Architecture and Ocean Engineering, Spring 2020
+  /* Publications — the hero */
+  ul.pubs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.pubs li {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 0 28px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  ul.pubs .thumb {
+    width: 180px;
+    height: auto;
+    display: block;
+    justify-self: center;
+  }
+  ul.pubs .thumb-empty {
+    width: 180px;
+  }
+  ul.pubs .thumb.tall {
+    width: auto;
+    max-height: 150px;
+  }
+  ul.pubs .title {
+    display: block;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  ul.pubs .authors {
+    display: block;
+    color: var(--ink-2);
+    font-size: 15px;
+  }
+  ul.pubs .authors b { color: var(--ink); font-weight: 600; }
+  ul.pubs .venue {
+    display: block;
+    color: var(--ink-2);
+    font-size: 15px;
+  }
+  ul.pubs .refs {
+    display: inline-flex;
+    gap: 12px;
+    margin-top: 3px;
+    font-size: 14px;
+  }
 
-- Teaching Assistant at Seoul National University, Creative Experiments in Naval Architecture and Ocean Engineering, Fall 2019
+  /* Selected work */
+  .work { padding: 0; margin: 0; list-style: none; }
+  .work li { margin-bottom: 16px; max-width: 62ch; }
+  .work .name { font-weight: 600; }
+  .work .desc { color: var(--ink-2); }
 
-### Awards
-- BK Education Research Group selected excellent graduate students, 2022
+  /* Compact key-value lists (background, awards, service) */
+  dl {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    gap: 6px 20px;
+    margin: 0;
+  }
+  dt { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  dd { margin: 0; }
 
-- Korean Mathematical Olympiad (high school) - bronze prize, 2010
+  .awards { padding: 0; margin: 0; list-style: none; }
+  .awards li { margin-bottom: 6px; }
+  .awards span { color: var(--ink-2); }
 
-- Korean Mathematical Olympiad (middle school) - gold prize, 2008
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-3);
+    font-size: 14px;
+  }
 
-- Korean Physics Olympiad (middle school) - silver prize, 2007
+  @media (max-width: 560px) {
+    main { padding: 36px 20px 72px; }
+    header { grid-template-columns: 1fr; }
+    header img { width: 72px; height: 72px; order: -1; }
+    dl { grid-template-columns: 1fr; gap: 2px 0; }
+    dt { margin-top: 10px; }
+    dd { margin-bottom: 2px; }
+    ul.pubs li { grid-template-columns: 1fr; gap: 8px 0; }
+    ul.pubs .thumb { width: 60%; max-width: 240px; }
+    ul.pubs .thumb.tall { width: auto; max-height: 180px; }
+    ul.pubs .thumb-empty { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
 
-- Korean Mathematical Olympiad (middle school) - silver prize, 2006
+<header>
+  <div>
+    <h1>Seungjun Lee</h1>
+    <p class="role">Research Staff, Brookhaven National Laboratory</p>
+    <ul class="links">
+      <li><a href="mailto:slee19@bnl.gov">slee19@bnl.gov</a></li>
+      <li><a href="https://scholar.google.com/citations?user=0O-A7g0AAAAJ">Google Scholar</a></li>
+      <li><a href="https://github.com/7tl7qns7ch">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/seungjun-lee-656946213/">LinkedIn</a></li>
+      <li><a href="assets/CV_LSJ.pdf">CV</a></li>
+    </ul>
+  </div>
+  <img src="assets/img/seungjunlee.jpeg" alt="Seungjun Lee" width="96" height="96">
+</header>
 
-### Skills
-Python, PyTorch, JAX, Tensorflow, MATLAB, Julia, LATEX, SPICE
+<div class="intro">
+  <p>I build machine learning models for complex physical systems. Three threads run through my work: neural operator surrogates that replace expensive PDE solvers, diffusion-based methods for inverse problems on experimental data, and uncertainty quantification for scientific prediction.</p>
+  <p>At Brookhaven I work on surrogate models for relativistic hydrodynamics, phase retrieval from X-ray diffraction, and test-time scaling for robot policies. I train at scale on NERSC Perlmutter in PyTorch and JAX, and review for NeurIPS, ICML, ICLR, AAAI, and TMLR.</p>
+  <p>A model that explains a family of related systems is worth more than one that fits a single narrow dataset. That is how governing equations work in physics, and it is the property I try to build into learning-based models.</p>
+</div>
 
-### Projects
-**1. Developing efficient architecture for solving physical systems (2022.08 - 2024.02)**
+<section id="publications">
+  <h2>Publications</h2>
+  <ul class="pubs">
 
-![Inducing Point Operator Transformer](/assets/img/ipot.png)
+    <li>
+      <img class="thumb" src="assets/img/adacov.png" alt="">
+      <div>
+      <span class="title">Efficient Neural Field Learning via Adaptive Coverage and Focused Sampling</span>
+      <span class="authors">Guang Zhao, Xihaier Luo, Huan-Hsin Tseng, <b>Seungjun Lee</b>, Shinjae Yoo, Yihui Ren, Wei Xu</span>
+      <span class="venue">NeurIPS, 2026</span>
+      <span class="refs"><a href="https://arxiv.org/abs/2610.02410">paper</a></span>
+      </div>
+    </li>
 
-(1) Main content
+    <li>
+      <img class="thumb" src="assets/img/qgp.gif" alt="">
+      <div>
+      <span class="title">Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma</span>
+      <span class="authors"><b>Seungjun Lee</b>, Yeonju Go, Bjoern Schenke, Chun Shen, Yihui Ren, Jin Huang, Maria Chamizo-Llatas</span>
+      <span class="venue">ICML Workshop on AI for Physics, 2026</span>
+      <span class="refs"><a href="https://openreview.net/forum?id=yb1tvNHDhl">paper</a></span>
+      </div>
+    </li>
 
-Developing a flexible and computationally efficient Transformer to learn physical systems handling continuous functions.
+    <li>
+      <img class="thumb" src="assets/img/pdefuncta.png" alt="">
+      <div>
+      <span class="title">PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling</span>
+      <span class="authors">Minju Jo, Woojin Cho, Uvini Balasuriya Mudiyanselage, <b>Seungjun Lee</b>, Noseong Park, Kookjin Lee</span>
+      <span class="venue">NeurIPS, 2025</span>
+      <span class="refs"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/02e7aaa804f3ad9ffa2804d0ac380c4d-Abstract-Conference.html">paper</a></span>
+      </div>
+    </li>
 
-(2) Contribution
+    <li>
+      <img class="thumb" src="assets/img/scent.png" alt="">
+      <div>
+      <span class="title">SCENT: Robust Spatiotemporal Learning for Continuous Scientific Data via Scalable Conditional Neural Fields</span>
+      <span class="authors">David Keetae Park, Xihaier Luo, Guang Zhao, <b>Seungjun Lee</b>, Miruna Oprescu, Shinjae Yoo</span>
+      <span class="venue">ICML, 2025</span>
+      <span class="refs"><a href="https://openreview.net/forum?id=vhjuemZuRU">paper</a></span>
+      </div>
+    </li>
 
-- Proposing a Transformer that is flexible in handling arbitrary discretization formats 
-and scalable to large discretization sizes.
+    <li>
+      <img class="thumb" src="assets/img/ocean.png" alt="">
+      <div>
+      <span class="title">Generalizable Implicit Neural Representations via Parameterized Latent Dynamics for Baroclinic Ocean Forecasting</span>
+      <span class="authors">Guang Zhao, Xihaier Luo, <b>Seungjun Lee</b>, Yihui Ren, Shinjae Yoo, Luke Van Roekel, Balu Nadiga, Sri Hari Krishna Narayanan, Yixuan Sun, Wei Xu</span>
+      <span class="venue">ICLR Workshop on Tackling Climate Change with ML, 2025</span>
+      <span class="refs"><a href="https://arxiv.org/abs/2503.21588">paper</a></span>
+      </div>
+    </li>
 
-- Handling arbitrary input/output discretization by processing them in the latent space to avoid quadratic complexity.
+    <li>
+      <img class="thumb" src="assets/img/mosfet.png" alt="">
+      <div>
+      <span class="title">Large-Scale Training in Neural Compact Models for Accurate and Adaptable MOSFET Simulation</span>
+      <span class="authors">Chanwoo Park, <b>Seungjun Lee</b>, Junghwan Park, Kyungjin Rim, Jihun Park, Seonggook Cho, Jongwook Jeon, Hyunbo Cho</span>
+      <span class="venue">IEEE Journal of the Electron Devices Society, 2024</span>
+      <span class="refs"><a href="https://ieeexplore.ieee.org/abstract/document/10566861">paper</a></span>
+      </div>
+    </li>
 
-- Achieving high accuracy and efficient computational costs in several PDE benchmarks and real-world scenarios.
+    <li>
+      <img class="thumb" src="assets/img/ipot.png" alt="">
+      <div>
+      <span class="title">Inducing Point Operator Transformer: A Flexible and Scalable Architecture for Solving PDEs</span>
+      <span class="authors"><b>Seungjun Lee</b>, Taeil Oh</span>
+      <span class="venue">AAAI, 2024</span>
+      <span class="refs"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/27766">paper</a><a href="https://github.com/7tl7qns7ch/IPOT">code</a></span>
+      </div>
+    </li>
 
-**2. Developing robust physics-based neural networks for analyzing dynamic systems (2021.03 - 2022.08)**
+    <li>
+      <img class="thumb tall" src="assets/img/mesh.png" alt="">
+      <div>
+      <span class="title">Mesh-Independent Operator Learning for Partial Differential Equations</span>
+      <span class="authors"><b>Seungjun Lee</b></span>
+      <span class="venue">ICML Workshop on AI for Science, 2022</span>
+      <span class="refs"><a href="https://openreview.net/forum?id=JUtZG8-2vGp">paper</a></span>
+      </div>
+    </li>
 
-![Identifying Physical Laws](/assets/img/hamaml.png)
+    <li>
+      <img class="thumb" src="assets/img/hamaml.png" alt="">
+      <div>
+      <span class="title">Identifying Physical Law of Hamiltonian Systems via Meta-Learning</span>
+      <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Woojae Seong</span>
+      <span class="venue">ICLR, 2021</span>
+      <span class="refs"><a href="https://arxiv.org/abs/2102.11544">paper</a><a href="https://github.com/7tl7qns7ch/Identifying-Physical-Law">code</a></span>
+      </div>
+    </li>
 
-(1) Main content
+    <li>
+      <img class="thumb" src="assets/img/zssl.png" alt="">
+      <div>
+      <span class="title">Zero-Shot Single-Microphone Sound Classification and Localization in a Building via the Synthesis of Unseen Features</span>
+      <span class="authors"><b>Seungjun Lee</b>, Haesang Yang, Hwiyong Choi, Woojae Seong</span>
+      <span class="venue">IEEE Transactions on Multimedia, 2021</span>
+      <span class="refs"><a href="https://ieeexplore.ieee.org/document/9430672">paper</a><a href="https://github.com/7tl7qns7ch/SNU-B36-EX">data</a></span>
+      </div>
+    </li>
 
-Proposing a method using meta-learning algorithms to model governing equations from similar dynamical systems, enabling rapid learning for new systems even with limited measurement data.
+    <li>
+      <div class="thumb-empty"></div>
+      <div>
+      <span class="title">Meta-Learned Hamiltonian</span>
+      <span class="authors"><b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">NeurIPS Workshop on Machine Learning and the Physical Sciences, 2020</span>
+      <span class="refs"><a href="https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_69.pdf">paper</a></span>
+      </div>
+    </li>
 
-(2) Contribution
+    <li>
+      <img class="thumb tall" src="assets/img/eusipco.png" alt="">
+      <div>
+      <span class="title">Type/Position Classification of Inter-Floor Noise in Residential Buildings with a Single Microphone via Supervised Learning</span>
+      <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">EUSIPCO, 2020</span>
+      <span class="refs"><a href="https://ieeexplore.ieee.org/abstract/document/9287868">paper</a></span>
+      </div>
+    </li>
 
-- Using a meta-learning algorithm to extract governing rules across similar dynamical systems.
+    <li>
+      <img class="thumb" src="assets/img/interfloor.png" alt="">
+      <div>
+      <span class="title">Classification of Inter-Floor Noise Type/Position via Convolutional Neural Network-Based Supervised Learning</span>
+      <span class="authors">Hwiyong Choi, Haesang Yang, <b>Seungjun Lee</b>, Woojae Seong</span>
+      <span class="venue">Applied Sciences, 2019</span>
+      <span class="refs"><a href="https://www.mdpi.com/2076-3417/9/18/3735">paper</a></span>
+      </div>
+    </li>
 
-- Using Neural ODEs and the Hamiltonian equations to continuously model dynamical systems and utilize the energy conservation principle.
+  </ul>
+</section>
 
-- Simulating various systems with different physical properties and initial conditions, and validating the capability to efficiently learn new systems even with limited data.
+<section id="work">
+  <h2>Selected work</h2>
+  <ul class="work">
+    <li>
+      <span class="name">Neural operator surrogates for quark-gluon plasma hydrodynamics.</span>
+      <span class="desc">Replacing 3+1D viscous relativistic hydrodynamic solvers with a tensorized Fourier neural operator, trained on large simulation ensembles for event-by-event heavy-ion physics at RHIC.</span>
+    </li>
+    <li>
+      <span class="name">Diffusion-based phase retrieval for X-ray diffraction.</span>
+      <span class="desc">Plug-and-play diffusion priors for inverting ptychography and Bragg coherent diffraction data, evaluated on real experimental measurements rather than simulation alone.</span>
+    </li>
+    <li>
+      <span class="name">Test-time scaling for vision-language-action policies.</span>
+      <span class="desc">Studying when additional inference-time compute improves flow-matching robot policies, and what limits it. Embodied AI LDRD at Brookhaven.</span>
+    </li>
+    <li>
+      <span class="name">Neural compact models for semiconductor devices.</span>
+      <span class="desc">Large-scale training of MOSFET surrogates for SPICE-compatible circuit simulation at Alsemy.</span>
+    </li>
+  </ul>
+</section>
 
-**3. Learning-based sound source classification and localization with limited data (2019.03 - 2021.02)**
+<section id="background">
+  <h2>Background</h2>
+  <dl>
+    <dt>2025 –</dt><dd>Research Staff, Computing and Data Sciences, Brookhaven National Laboratory</dd>
+    <dt>2024 – 2025</dt><dd>Research Associate, Brookhaven National Laboratory</dd>
+    <dt>2022 – 2024</dt><dd>AI Researcher, Alsemy, Seoul</dd>
+    <dt>2017 – 2022</dt><dd>PhD, Seoul National University. Advisor: Woojae Seong</dd>
+    <dt>2012 – 2017</dt><dd>BS, Seoul National University</dd>
+  </dl>
+</section>
 
-![Zero-Shot Source Localization](/assets/img/zssl.png)
+<section id="awards">
+  <h2>Awards</h2>
+  <ul class="awards">
+    <li>Korean Mathematical Olympiad, Gold <span>(middle school, 2008)</span>, Silver <span>(middle school, 2006)</span> and Bronze <span>(high school, 2010)</span></li>
+    <li>Korean Physics Olympiad, Silver <span>(middle school, 2007)</span></li>
+    <li>Outstanding Graduate Student Award, BK21 Program, Ministry of Education <span>(2022)</span></li>
+  </ul>
+</section>
 
-(1) Main content
+<section id="service">
+  <h2>Reviewing</h2>
+  <p style="margin:0">NeurIPS 2025, 2026. ICML 2026. ICLR 2025, 2026. AAAI 2026, 2027. TMLR 2025.</p>
+</section>
 
-Developing a generative model to robustly estimate the position of sound sources, even from unseen locations within a building during training.
+<footer>
+  Last updated October 2026
+</footer>
 
-(2) Contribution
-
-- Applying Zero-shot learning techniques to the problem of sound classification and localization, involving simultaneously classifying the type and location of sound sources.
-
-- Using a conditional GAN to map sound data to their corresponding types and locations of sound sources and to augment data for unseen locations.
-
-- Collecting extensive real-world environment sound datasets, including various types and locations, to develop a robust sound generative model.
-
-### Research Approach
-Here is an example of my research approach to achieve my research goal. Scientists have established a wave equation (model) to describe the sound that is made when a string is plucked. Even if the physical properties of the string, such as its thickness or length, change, the wave equation can still explain related phenomena, with only the parameters of the equation changing. Especially, with a small amount of data available for a new string (such as its position over time), the frequencies of the sound produced by the new string can be predicted. In addition, the new wave can be explained by the same equation through appropriate transformations (encoding/projection) from raw data, even if the medium (domain) changes, such as a string,
-water, air, or a metal plate. Furthermore, the wave equation can mathematically predict the various characteristics of general waves (such as reflection, refraction, diffraction, and interference), and this has been proven through the experience or experiments of many people, and it has been established as a very reliable model for explaining general waves. Therefore, it is scientifically more important to make a general model that can explain general waves, rather than a narrow model that is only suitable for sound produced by one instance of string. In the field of machine learning, similar discussions are also very important. I am researching and applying machine learning models and algorithms from a scientific modeling perspective.
+</main>
+</body>
+</html>
